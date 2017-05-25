@@ -1,4 +1,4 @@
-# test
+# Testing with Webpack / Mocha and Vue.js
 
 > A mocha / webpack testing project with es6 and vue.js
 
@@ -14,6 +14,9 @@ npm run dev
 # build for production with minification
 npm run build
 
-# test with mocha and hot reload
+# tests via command line with mocha and hot reload
 npm run test
+
+# tests via chrome debugger (after starting open chrome to localhost:8080)
+npm run test:debug
 ```
